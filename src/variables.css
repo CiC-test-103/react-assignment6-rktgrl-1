@@ -8,6 +8,7 @@
   --clr-desaturatedDarkBlue: hsl(214, 17%, 51%);
   --clr-grayishBlue: hsl(212, 23%, 69%);
   --clr-lightGrayishBlue: hsl(210, 46%, 95%);
+  --clr-white: hsl(0, 0%, 100%);
 
   /** Typography **/
   --font-paragraph: 13px; 

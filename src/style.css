@@ -48,12 +48,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Global CSS **/
 /* We recommend writing minimal component-specific CSS here */
-
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-lightGrayishBlue);
+  font-family: var(--ff-base);
+  min-height: 100vh;
+  padding: 1rem;
+}
 
 /** Attribution CSS **/
 .attribution { 
   font-size: 13px; 
   text-align: center; 
+  margin-top: 1rem;
+  width: 100%;
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
